@@ -1,0 +1,42 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "Members"
+    url: /members/
+
+  - title: "Projects"
+    url: /projects/
+
+
+
+docs:
+  - title: Informatics
+    children:
+      - title: "Structured Reporting"
+        url: #
+      - title: "Imaging Informatics"
+        url: #
+      - title: "Information Systems"
+        url: #
+      - title: "Fundamental Research"
+        url: #
+      - title: "Comparative Effectiveness"
+        url: #
+
+  - title: Decision Support
+    children:
+      - title: "Machine Learning"
+        url: #
+      - title: "Natural Language Processing"
+        url: #
+
+  - title: Projects
+    children:
+      - title: "RadKB"
+        url: #
+      - title: "Cloud PACS"
+        url: #

@@ -1,0 +1,2482 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: (Apache XML Graphics Commons: EPS Generator for Java2D)
+%%CreationDate: 2016-09-21T14:33:46
+%%Pages: (atend)
+%%BoundingBox: 0 0 75 20
+%%LanguageLevel: 3
+%%EndComments
+%%BeginProlog
+%%BeginResource: procset (Apache XML Graphics Std ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2001-2003 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+%%Title: (Basic set of procedures used by the XML Graphics project \(Batik and FOP\))
+/bd{bind def}bind def
+/ld{load def}bd
+/M/moveto ld
+/RM/rmoveto ld
+/t/show ld
+/A/ashow ld
+/cp/closepath ld
+/re {4 2 roll M
+1 index 0 rlineto
+0 exch rlineto
+neg 0 rlineto
+cp } bd
+/_ctm matrix def
+/_tm matrix def
+/BT { _ctm currentmatrix pop matrix _tm copy pop 0 0 moveto } bd
+/ET { _ctm setmatrix } bd
+/iTm { _ctm setmatrix _tm concat } bd
+/Tm { _tm astore pop iTm 0 0 moveto } bd
+/ux 0.0 def
+/uy 0.0 def
+/F {
+  /Tp exch def
+  /Tf exch def
+  Tf findfont Tp scalefont setfont
+  /cf Tf def  /cs Tp def  /cw ( ) stringwidth pop def
+} bd
+/ULS {currentpoint /uy exch def /ux exch def} bd
+/ULE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add moveto  Tcx uy To add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/OLE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs add moveto Tcx uy To add cs add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/SOE {
+  /Tcx currentpoint pop def
+  gsave
+  newpath
+  cf findfont cs scalefont dup
+  /FontMatrix get 0 get /Ts exch def /FontInfo get dup
+  /UnderlinePosition get Ts mul /To exch def
+  /UnderlineThickness get Ts mul /Tt exch def
+  ux uy To add cs 10 mul 26 idiv add moveto Tcx uy To add cs 10 mul 26 idiv add lineto
+  Tt setlinewidth stroke
+  grestore
+} bd
+/QUADTO {
+/Y22 exch store
+/X22 exch store
+/Y21 exch store
+/X21 exch store
+currentpoint
+/Y21 load 2 mul add 3 div exch
+/X21 load 2 mul add 3 div exch
+/X21 load 2 mul /X22 load add 3 div
+/Y21 load 2 mul /Y22 load add 3 div
+/X22 load /Y22 load curveto
+} bd
+/SSPD {
+dup length /d exch dict def
+{
+/v exch def
+/k exch def
+currentpagedevice k known {
+/cpdv currentpagedevice k get def
+v cpdv ne {
+/upd false def
+/nullv v type /nulltype eq def
+/nullcpdv cpdv type /nulltype eq def
+nullv nullcpdv or
+{
+/upd true def
+} {
+/sametype v type cpdv type eq def
+sametype {
+v type /arraytype eq {
+/vlen v length def
+/cpdvlen cpdv length def
+vlen cpdvlen eq {
+0 1 vlen 1 sub {
+/i exch def
+/obj v i get def
+/cpdobj cpdv i get def
+obj cpdobj ne {
+/upd true def
+exit
+} if
+} for
+} {
+/upd true def
+} ifelse
+} {
+v type /dicttype eq {
+v {
+/dv exch def
+/dk exch def
+/cpddv cpdv dk get def
+dv cpddv ne {
+/upd true def
+exit
+} if
+} forall
+} {
+/upd true def
+} ifelse
+} ifelse
+} if
+} ifelse
+upd true eq {
+d k v put
+} if
+} if
+} if
+} forall
+d length 0 gt {
+d setpagedevice
+} if
+} bd
+%%EndResource
+%%BeginResource: procset (Apache XML Graphics EPS ProcSet) 1.0 0
+%%Version: 1.0 0
+%%Copyright: (Copyright 2002-2003 The Apache Software Foundation. License terms: http://www.apache.org/licenses/LICENSE-2.0)
+%%Title: (EPS procedures used by the Apache XML Graphics project \(Batik and FOP\))
+/BeginEPSF { %def
+/b4_Inc_state save def         % Save state for cleanup
+/dict_count countdictstack def % Count objects on dict stack
+/op_count count 1 sub def      % Count objects on operand stack
+userdict begin                 % Push userdict on dict stack
+/showpage { } def              % Redefine showpage, { } = null proc
+0 setgray 0 setlinecap         % Prepare graphics state
+1 setlinewidth 0 setlinejoin
+10 setmiterlimit [ ] 0 setdash newpath
+/languagelevel where           % If level not equal to 1 then
+{pop languagelevel             % set strokeadjust and
+1 ne                           % overprint to their defaults.
+{false setstrokeadjust false setoverprint
+} if
+} if
+} bd
+/EndEPSF { %def
+count op_count sub {pop} repeat            % Clean up stacks
+countdictstack dict_count sub {end} repeat
+b4_Inc_state restore
+} bd
+%%EndResource
+%FOPBeginFontDict
+%%IncludeResource: font Courier-Oblique
+%%IncludeResource: font Courier-BoldOblique
+%%IncludeResource: font Courier-Bold
+%%IncludeResource: font ZapfDingbats
+%%IncludeResource: font Symbol
+%%IncludeResource: font Helvetica
+%%IncludeResource: font Helvetica-Oblique
+%%IncludeResource: font Helvetica-Bold
+%%IncludeResource: font Helvetica-BoldOblique
+%%IncludeResource: font Times-Roman
+%%IncludeResource: font Times-Italic
+%%IncludeResource: font Times-Bold
+%%IncludeResource: font Times-BoldItalic
+%%IncludeResource: font Courier
+%FOPEndFontDict
+%FOPBeginFontReencode
+%%BeginResource: encoding WinAnsiEncoding
+/WinAnsiEncoding [
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /.notdef /.notdef /.notdef
+/.notdef /.notdef /space /exclam /quotedbl
+/numbersign /dollar /percent /ampersand /quotesingle
+/parenleft /parenright /asterisk /plus /comma
+/hyphen /period /slash /zero /one
+/two /three /four /five /six
+/seven /eight /nine /colon /semicolon
+/less /equal /greater /question /at
+/A /B /C /D /E
+/F /G /H /I /J
+/K /L /M /N /O
+/P /Q /R /S /T
+/U /V /W /X /Y
+/Z /bracketleft /backslash /bracketright /asciicircum
+/underscore /quoteleft /a /b /c
+/d /e /f /g /h
+/i /j /k /l /m
+/n /o /p /q /r
+/s /t /u /v /w
+/x /y /z /braceleft /bar
+/braceright /asciitilde /bullet /Euro /bullet
+/quotesinglbase /florin /quotedblbase /ellipsis /dagger
+/daggerdbl /circumflex /perthousand /Scaron /guilsinglleft
+/OE /bullet /Zcaron /bullet /bullet
+/quoteleft /quoteright /quotedblleft /quotedblright /bullet
+/endash /emdash /asciitilde /trademark /scaron
+/guilsinglright /oe /bullet /zcaron /Ydieresis
+/space /exclamdown /cent /sterling /currency
+/yen /brokenbar /section /dieresis /copyright
+/ordfeminine /guillemotleft /logicalnot /sfthyphen /registered
+/macron /degree /plusminus /twosuperior /threesuperior
+/acute /mu /paragraph /middot /cedilla
+/onesuperior /ordmasculine /guillemotright /onequarter /onehalf
+/threequarters /questiondown /Agrave /Aacute /Acircumflex
+/Atilde /Adieresis /Aring /AE /Ccedilla
+/Egrave /Eacute /Ecircumflex /Edieresis /Igrave
+/Iacute /Icircumflex /Idieresis /Eth /Ntilde
+/Ograve /Oacute /Ocircumflex /Otilde /Odieresis
+/multiply /Oslash /Ugrave /Uacute /Ucircumflex
+/Udieresis /Yacute /Thorn /germandbls /agrave
+/aacute /acircumflex /atilde /adieresis /aring
+/ae /ccedilla /egrave /eacute /ecircumflex
+/edieresis /igrave /iacute /icircumflex /idieresis
+/eth /ntilde /ograve /oacute /ocircumflex
+/otilde /odieresis /divide /oslash /ugrave
+/uacute /ucircumflex /udieresis /yacute /thorn
+/ydieresis
+] def
+%%EndResource
+/Courier-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Oblique exch definefont pop
+/Courier-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-BoldOblique exch definefont pop
+/Courier-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier-Bold exch definefont pop
+/Helvetica findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica exch definefont pop
+/Helvetica-Oblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Oblique exch definefont pop
+/Helvetica-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-Bold exch definefont pop
+/Helvetica-BoldOblique findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Helvetica-BoldOblique exch definefont pop
+/Times-Roman findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Roman exch definefont pop
+/Times-Italic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Italic exch definefont pop
+/Times-Bold findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-Bold exch definefont pop
+/Times-BoldItalic findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Times-BoldItalic exch definefont pop
+/Courier findfont
+dup length dict begin
+  {1 index /FID ne {def} {pop pop} ifelse} forall
+  /Encoding WinAnsiEncoding def
+  currentdict
+end
+/Courier exch definefont pop
+%FOPEndFontReencode
+%%EndProlog
+%%Page: 1 1
+%%PageBoundingBox: 0 0 75 20
+%%BeginPageSetup
+[0.75 0 0 -0.74074 0 20] concat
+%%EndPageSetup
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+1.091 0.829 M
+0.58 2.018 -0.561 6.681 0.329 12.031 curveto
+11.087 12.031 lineto
+11.087 0.829 lineto
+1.091 0.829 lineto
+closepath
+9.507 8.907 M
+9.048 9.097 8.773 9.052 8.546 8.862 curveto
+8.398 9.058 8.18 9.273 8.025 9.435 curveto
+8.328 9.527 8.526 9.612 8.772 9.863 curveto
+8.271 10.07 7.902 10.005 7.68 9.769 curveto
+7.505 9.918 7.339 10.073 7.158 10.179 curveto
+7.454 10.33 7.67 10.489 7.848 10.735 curveto
+7.279 10.866 6.904 10.704 6.738 10.384 curveto
+6.568 10.452 6.411 10.51 6.24 10.543 curveto
+6.403 10.681 6.513 10.789 6.595 10.972 curveto
+6.205 10.962 5.983 10.87 5.925 10.63 curveto
+5.846 10.638 5.767 10.69 5.689 10.689 curveto
+5.689 11.452 lineto
+5.209 11.239 lineto
+5.209 10.679 lineto
+5.16 10.675 5.046 10.635 4.999 10.627 curveto
+4.931 10.855 4.76 10.944 4.384 10.951 curveto
+4.466 10.765 4.51 10.634 4.701 10.536 curveto
+4.527 10.492 4.365 10.408 4.194 10.33 curveto
+4.045 10.685 3.709 10.832 3.108 10.694 curveto
+3.284 10.448 3.507 10.227 3.807 10.124 curveto
+3.654 10.027 3.511 9.932 3.36 9.786 curveto
+3.141 10.031 2.767 10.115 2.256 9.903 curveto
+2.466 9.689 2.673 9.52 2.991 9.459 curveto
+2.831 9.301 2.684 9.108 2.531 8.915 curveto
+2.304 9.115 1.958 9.181 1.49 8.983 curveto
+1.7 8.77 1.94 8.545 2.24 8.547 curveto
+2.148 8.415 2.067 8.266 1.971 8.114 curveto
+1.872 8.113 1.786 8.114 1.684 7.985 curveto
+1.572 7.845 1.468 7.537 1.652 7.441 curveto
+1.766 7.342 2.032 7.487 2.119 7.646 curveto
+2.199 7.793 2.171 7.879 2.141 7.983 curveto
+2.235 8.13 2.341 8.275 2.434 8.406 curveto
+2.369 7.984 2.489 7.635 2.6 7.388 curveto
+2.975 7.911 2.905 8.363 2.695 8.686 curveto
+2.853 8.88 2.983 9.025 3.139 9.183 curveto
+3.096 8.887 3.13 8.441 3.238 8.191 curveto
+3.59 8.676 3.638 9.173 3.477 9.5 curveto
+3.625 9.625 3.763 9.743 3.909 9.835 curveto
+3.829 9.558 3.793 9.097 3.866 8.831 curveto
+4.263 9.236 4.386 9.693 4.294 10.038 curveto
+4.464 10.115 4.627 10.182 4.797 10.221 curveto
+4.717 10.057 4.639 9.776 4.653 9.595 curveto
+4.951 9.787 5.026 10.007 5.014 10.239 curveto
+5.061 10.244 5.188 10.302 5.232 10.302 curveto
+5.223 9.634 lineto
+4.929 9.558 4.486 9.389 4.341 8.822 curveto
+4.617 8.886 4.967 8.952 5.223 9.179 curveto
+5.223 8.825 lineto
+4.628 8.776 4.03 8.355 3.734 7.514 curveto
+4.25 7.604 4.747 7.848 5.223 8.159 curveto
+5.223 7.848 lineto
+4.703 7.811 4.213 7.329 3.996 6.646 curveto
+4.425 6.726 4.824 6.92 5.223 7.204 curveto
+5.223 6.813 lineto
+4.736 6.76 4.236 6.347 3.996 5.588 curveto
+4.425 5.669 4.824 5.854 5.223 6.137 curveto
+5.223 5.698 lineto
+4.721 5.664 4.246 5.384 3.996 4.604 curveto
+4.425 4.685 4.824 4.91 5.223 5.193 curveto
+5.223 4.706 lineto
+4.828 4.661 4.454 4.418 4.257 3.649 curveto
+4.601 3.73 4.905 3.877 5.223 4.161 curveto
+5.223 3.655 lineto
+4.918 3.6 4.637 3.48 4.484 2.885 curveto
+4.692 2.932 4.943 2.944 5.225 3.196 curveto
+5.219 2.891 lineto
+4.989 2.548 5.041 2.398 5.068 2.126 curveto
+5.093 1.879 5.186 1.696 5.451 1.683 curveto
+5.717 1.696 5.808 1.879 5.835 2.125 curveto
+5.865 2.398 5.913 2.548 5.684 2.891 curveto
+5.689 3.204 lineto
+5.897 3.035 6.199 2.901 6.442 2.852 curveto
+6.308 3.452 6.013 3.604 5.692 3.658 curveto
+5.68 4.163 lineto
+5.942 3.953 6.337 3.669 6.637 3.608 curveto
+6.467 4.371 6.099 4.648 5.691 4.706 curveto
+5.691 5.203 lineto
+6.017 4.992 6.53 4.625 6.907 4.563 curveto
+6.691 5.336 6.213 5.642 5.693 5.69 curveto
+5.695 6.147 lineto
+6.02 5.937 6.53 5.607 6.907 5.548 curveto
+6.699 6.294 6.195 6.748 5.696 6.816 curveto
+5.696 7.204 lineto
+6.023 6.995 6.53 6.665 6.907 6.604 curveto
+6.709 7.388 6.211 7.81 5.692 7.855 curveto
+5.692 8.172 lineto
+6.083 7.94 6.725 7.537 7.175 7.47 curveto
+6.917 8.31 6.31 8.766 5.692 8.824 curveto
+5.692 9.187 lineto
+5.902 9.019 6.342 8.837 6.584 8.789 curveto
+6.455 9.361 5.995 9.558 5.689 9.634 curveto
+5.688 10.312 lineto
+5.76 10.31 5.83 10.296 5.904 10.288 curveto
+5.882 10.053 6.021 9.811 6.326 9.616 curveto
+6.34 9.797 6.236 10.06 6.178 10.237 curveto
+6.343 10.199 6.506 10.154 6.668 10.085 curveto
+6.581 9.742 6.696 9.271 7.089 8.873 curveto
+7.163 9.138 7.093 9.572 7.059 9.859 curveto
+7.232 9.752 7.407 9.638 7.576 9.491 curveto
+7.386 9.165 7.421 8.659 7.788 8.152 curveto
+7.897 8.401 7.902 8.882 7.906 9.172 curveto
+8.055 9.013 8.215 8.835 8.358 8.641 curveto
+8.098 8.325 8.09 8.02 8.4 7.404 curveto
+8.507 7.653 8.605 8.027 8.609 8.318 curveto
+8.743 8.145 8.839 8.001 8.953 7.793 curveto
+8.885 7.635 8.917 7.513 8.999 7.41 curveto
+9.113 7.267 9.284 7.145 9.438 7.238 curveto
+9.651 7.335 9.544 7.57 9.469 7.742 curveto
+9.416 7.864 9.325 7.946 9.166 7.942 curveto
+9.056 8.137 8.901 8.352 8.767 8.522 curveto
+9.077 8.621 9.297 8.693 9.507 8.907 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.651 0.114 0.224 setrgbcolor
+newpath
+14.748 4.857 M
+14.792 4.882 14.845 4.879 14.86 4.848 curveto
+14.877 4.817 14.855 4.769 14.808 4.745 curveto
+14.759 4.72 14.709 4.723 14.691 4.756 curveto
+14.674 4.787 14.699 4.833 14.748 4.857 curveto
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.651 0.114 0.224 setrgbcolor
+newpath
+14.992 4.329 M
+15.03 4.366 15.08 4.374 15.106 4.347 curveto
+15.129 4.321 15.117 4.272 15.078 4.236 curveto
+15.039 4.2 14.988 4.192 14.966 4.219 curveto
+14.941 4.243 14.952 4.294 14.992 4.329 curveto
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+16.088 5.12 M
+16.298 5.228 lineto
+16.765 5.352 lineto
+16.765 4.581 lineto
+15.849 4.04 lineto
+15.85 4.579 lineto
+16.003 4.765 16.116 4.965 16.088 5.12 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+15.082 15.323 M
+15.111 15.56 15.467 15.791 15.998 16.039 curveto
+15.975 15.403 15.949 14.837 15.921 14.336 curveto
+15.31 14.792 15.055 15.092 15.082 15.323 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+17.374 17.758 M
+17.382 17.602 17.116 17.416 16.744 17.228 curveto
+16.744 17.525 16.746 17.831 16.747 18.145 curveto
+17.275 17.98 17.37 17.834 17.374 17.758 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+14.717 5.114 M
+14.38 5.003 14.339 4.834 14.312 4.722 curveto
+14.294 4.651 14.291 4.641 14.235 4.628 curveto
+14.216 4.624 14.184 4.618 14.139 4.618 curveto
+13.974 4.618 13.666 4.69 13.564 4.956 curveto
+13.452 5.246 13.526 5.971 15.28 7.561 curveto
+15.419 7.686 15.538 7.798 15.668 7.918 curveto
+15.665 5.335 lineto
+15.442 5.324 15.132 5.251 14.717 5.114 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+14.806 4.92 M
+14.849 4.92 14.884 4.902 14.903 4.867 curveto
+14.929 4.81 14.897 4.739 14.828 4.703 curveto
+14.759 4.668 14.679 4.681 14.65 4.734 curveto
+14.639 4.755 14.637 4.782 14.644 4.808 curveto
+14.656 4.844 14.685 4.878 14.724 4.899 curveto
+14.752 4.912 14.779 4.92 14.806 4.92 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+15.066 4.41 M
+15.094 4.41 15.121 4.399 15.139 4.379 curveto
+15.156 4.36 15.164 4.334 15.163 4.307 curveto
+15.161 4.27 15.143 4.231 15.109 4.203 curveto
+15.053 4.15 14.964 4.147 14.932 4.185 curveto
+14.915 4.203 14.905 4.228 14.907 4.256 curveto
+14.907 4.293 14.928 4.334 14.96 4.363 curveto
+14.99 4.392 15.029 4.41 15.066 4.41 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+16.567 20.486 M
+16.567 20.146 lineto
+16.571 19.889 16.46 19.849 16.265 19.804 curveto
+16.267 20.038 16.27 20.276 16.272 20.522 curveto
+16.273 20.547 lineto
+16.31 20.632 16.382 20.664 16.438 20.664 curveto
+16.466 20.664 16.553 20.655 16.578 20.546 curveto
+16.578 20.524 16.578 20.504 16.577 20.482 curveto
+16.567 20.486 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+21.348 0.829 M
+11.352 0.829 lineto
+11.352 25.688 lineto
+11.352 26.979 lineto
+12.093 26.569 12.783 26.136 13.432 25.688 curveto
+25.46 17.386 22.299 3.05 21.348 0.829 curveto
+closepath
+18.802 12.086 M
+18.701 12.813 17.909 13.354 16.748 13.936 curveto
+16.742 14.668 16.74 15.471 16.742 16.36 curveto
+16.806 16.386 16.868 16.412 16.935 16.439 curveto
+18.017 16.877 18.199 17.375 18.161 17.713 curveto
+18.099 18.282 17.403 18.704 16.75 18.835 curveto
+16.752 19.018 16.753 19.198 16.754 19.387 curveto
+16.947 19.532 17.065 19.747 17.055 19.969 curveto
+17.047 20.164 16.937 20.321 16.761 20.407 curveto
+16.761 20.46 16.761 20.51 16.761 20.564 curveto
+16.724 20.743 16.596 20.851 16.438 20.851 curveto
+16.292 20.851 16.164 20.759 16.104 20.618 curveto
+16.069 20.625 16.019 20.639 15.94 20.671 curveto
+15.802 20.728 15.728 20.75 15.678 20.75 curveto
+15.601 20.75 15.571 20.703 15.564 20.683 curveto
+15.528 20.606 15.588 20.525 15.654 20.449 curveto
+15.788 20.3 15.866 20.249 16.083 20.148 curveto
+16.08 20.017 16.08 19.883 16.079 19.757 curveto
+16.009 19.737 15.94 19.712 15.874 19.67 curveto
+15.505 19.432 15.345 19.181 15.403 18.921 curveto
+15.474 18.594 15.88 18.38 16.057 18.315 curveto
+16.047 17.814 16.038 17.344 16.025 16.905 curveto
+15.796 16.811 15.566 16.721 15.355 16.638 curveto
+14.371 16.254 14.182 15.698 14.193 15.299 curveto
+14.219 14.436 15.156 13.599 15.853 13.343 curveto
+15.66 10.932 15.378 10.47 15.092 10.293 curveto
+15.024 10.25 lineto
+15.345 9.507 lineto
+15.67 9.728 lineto
+15.67 9.223 lineto
+15.465 9.036 15.263 8.847 15.075 8.656 curveto
+14.814 8.389 13.687 7.201 13.559 7.024 curveto
+13.338 6.725 13.044 6.274 12.884 5.832 curveto
+12.692 5.285 12.734 4.718 12.995 4.351 curveto
+13.272 3.96 13.773 3.816 14.421 3.946 curveto
+14.569 4.01 14.639 3.988 14.74 3.962 curveto
+14.8 3.946 14.869 3.929 14.944 3.929 curveto
+15.075 3.929 15.203 3.979 15.349 4.086 curveto
+15.399 4.123 15.528 4.232 15.664 4.37 curveto
+15.663 3.714 lineto
+16.95 4.475 lineto
+16.952 5.576 lineto
+17.11 5.36 17.347 5.115 17.601 5.073 curveto
+17.694 5.058 lineto
+17.872 6.226 lineto
+17.832 6.259 lineto
+17.354 6.657 17.065 7.184 16.906 9.083 curveto
+18.277 10.437 18.906 11.331 18.802 12.086 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+16.569 19.277 M
+16.569 19.139 16.567 19.005 16.567 18.87 curveto
+16.558 18.871 lineto
+16.558 18.201 lineto
+16.563 18.199 lineto
+16.561 17.834 16.559 17.481 16.558 17.138 curveto
+16.447 17.086 16.333 17.035 16.213 16.984 curveto
+16.229 17.595 16.244 18.26 16.254 18.989 curveto
+16.298 19.13 16.475 19.237 16.569 19.277 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+16.757 12.961 M
+17.413 12.659 17.775 12.33 17.836 11.957 curveto
+17.919 11.448 17.456 10.881 16.83 10.279 curveto
+16.795 11.017 16.772 11.897 16.757 12.961 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+17.672 6.151 M
+17.541 5.284 lineto
+17.295 5.393 17.038 5.748 16.942 5.94 curveto
+16.766 5.899 lineto
+16.765 5.455 lineto
+16.547 5.499 lineto
+16.565 5.779 lineto
+16.479 5.806 lineto
+16.203 5.366 lineto
+15.992 5.262 lineto
+15.956 5.292 15.913 5.316 15.851 5.327 curveto
+15.854 8.089 lineto
+16.172 8.381 16.465 8.659 16.73 8.916 curveto
+16.895 7.106 17.188 6.568 17.672 6.151 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+15.857 9.391 M
+15.857 10.08 lineto
+15.427 9.787 lineto
+15.257 10.177 lineto
+15.609 10.415 16.008 10.971 16.186 16.125 curveto
+16.304 16.177 16.427 16.23 16.556 16.284 curveto
+16.552 13.502 16.579 11.531 16.65 10.11 curveto
+16.471 9.944 16.286 9.776 16.095 9.606 curveto
+16.016 9.535 15.936 9.462 15.857 9.391 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+4.802 16.174 M
+5.495 16.174 lineto
+5.495 17.944 lineto
+4.802 17.944 lineto
+4.802 16.174 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+0.378 12.298 M
+1.195 16.871 3.524 21.904 9.007 25.688 curveto
+9.657 26.136 10.346 26.569 11.087 26.979 curveto
+11.087 25.688 lineto
+11.087 12.298 lineto
+0.378 12.298 lineto
+closepath
+9.726 20.87 M
+5.495 20.87 lineto
+5.495 18.483 lineto
+4.188 18.483 lineto
+4.188 14.251 lineto
+8.419 14.251 lineto
+8.421 16.636 lineto
+9.726 16.636 lineto
+9.726 20.87 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+6.09 17.251 M
+7.861 17.251 lineto
+7.861 17.944 lineto
+6.09 17.944 lineto
+6.09 17.251 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+4.822 14.789 M
+6.592 14.789 lineto
+6.592 15.484 lineto
+4.822 15.484 lineto
+4.822 14.789 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+7.341 18.483 M
+7.88 18.483 lineto
+7.88 19.023 lineto
+7.341 19.023 lineto
+7.341 18.483 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+6.034 16.097 M
+6.571 16.097 lineto
+6.571 16.636 lineto
+6.034 16.636 lineto
+6.034 16.097 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+7.168 14.789 M
+7.861 14.789 lineto
+7.861 16.56 lineto
+7.168 16.56 lineto
+7.168 14.789 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+8.419 17.233 M
+9.112 17.233 lineto
+9.112 19.003 lineto
+8.419 19.003 lineto
+8.419 17.233 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+6.112 18.483 M
+6.804 18.483 lineto
+6.804 20.253 lineto
+6.112 20.253 lineto
+6.112 18.483 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.004 setgray
+newpath
+7.322 19.541 M
+9.093 19.541 lineto
+9.093 20.234 lineto
+7.322 20.234 lineto
+7.322 19.541 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+47.481 14.868 M
+44.939 14.868 44.742 12.937 44.742 12.344 curveto
+44.742 11.648 44.929 10.418 46.549 9.821 curveto
+48.221 9.206 48.579 9.135 49.731 8.773 curveto
+49.731 8.476 lineto
+49.731 7.918 49.731 7.782 49.62 7.436 curveto
+49.398 6.773 48.762 6.357 47.898 6.357 curveto
+46.629 6.357 46.108 7.326 46.104 7.335 curveto
+46.003 7.525 lineto
+45.532 7.245 lineto
+45.579 7.1 lineto
+45.808 6.371 46.731 5.129 48.744 5.129 curveto
+50.052 5.129 50.904 5.501 51.433 6.302 curveto
+51.826 6.938 51.857 7.818 51.857 8.738 curveto
+51.857 9.545 51.838 10.444 51.82 11.17 curveto
+51.809 11.668 51.799 12.1 51.799 12.363 curveto
+51.799 13.026 51.904 13.54 52.457 13.54 curveto
+52.593 13.54 52.686 13.511 52.762 13.447 curveto
+52.914 13.319 lineto
+53.223 13.67 lineto
+53.12 13.803 lineto
+52.612 14.415 52.13 14.847 51.268 14.847 curveto
+50.521 14.847 50.005 14.494 49.83 13.898 curveto
+49.416 14.33 48.661 14.868 47.481 14.868 curveto
+closepath
+49.731 9.933 M
+48.48 10.308 48.056 10.518 47.668 10.713 curveto
+47.131 10.985 46.851 11.538 46.851 12.187 curveto
+46.851 12.694 47.032 13.546 48.25 13.546 curveto
+48.653 13.546 49.229 13.472 49.731 13.112 curveto
+49.731 9.933 lineto
+49.731 9.933 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+31.943 14.844 M
+30.726 14.844 29.799 14.71 28.848 14.4 curveto
+28.71 14.355 lineto
+28.71 13.673 lineto
+28.71 12.766 28.69 12.409 28.671 12.12 curveto
+28.643 11.648 lineto
+29.198 11.649 lineto
+29.21 11.846 lineto
+29.233 12.269 29.375 12.686 29.634 12.978 curveto
+30.033 13.429 30.951 13.701 31.805 13.701 curveto
+33.593 13.701 34.426 13.025 34.426 11.571 curveto
+34.426 10.326 33.656 9.808 32.593 9.09 curveto
+32.424 8.974 lineto
+31.301 8.227 lineto
+29.741 7.193 28.947 6.364 28.947 4.711 curveto
+28.947 3.902 29.253 1.261 33.185 1.261 curveto
+34.8 1.261 36.043 1.473 36.095 1.481 curveto
+36.265 1.511 lineto
+36.259 1.677 lineto
+36.259 1.682 36.245 2.195 36.245 2.752 curveto
+36.245 3.189 36.238 3.57 36.253 3.964 curveto
+36.269 4.258 lineto
+35.792 4.258 lineto
+35.78 4.074 lineto
+35.745 3.574 35.599 3.216 35.325 2.94 curveto
+34.948 2.561 34.111 2.383 33.224 2.383 curveto
+31.14 2.383 30.897 3.456 30.897 4.258 curveto
+30.897 5.364 31.465 5.739 32.702 6.557 curveto
+34.125 7.499 lineto
+35.335 8.306 36.477 9.069 36.477 11.077 curveto
+36.477 14.476 33.305 14.844 31.943 14.844 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+41.261 14.903 M
+39.81 14.903 39.006 14.384 38.648 13.227 curveto
+38.5 12.766 38.5 11.858 38.5 11.314 curveto
+38.5 9.815 38.514 8.612 38.53 7.218 curveto
+38.537 6.565 lineto
+37.3 6.565 lineto
+37.3 6.196 lineto
+37.421 6.147 lineto
+37.996 5.908 38.216 5.746 38.471 5.549 curveto
+39.374 4.85 40 3.668 40.01 3.65 curveto
+40.22 3.292 lineto
+40.629 3.292 lineto
+40.629 5.401 lineto
+43.826 5.401 lineto
+43.826 6.565 lineto
+40.629 6.565 lineto
+40.629 11.491 lineto
+40.629 12.963 40.903 13.803 42.298 13.803 curveto
+42.944 13.803 43.442 13.552 43.446 13.548 curveto
+43.639 13.448 lineto
+43.804 13.83 lineto
+43.723 13.922 lineto
+43.689 13.959 42.966 14.903 41.261 14.903 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+54.025 14.785 M
+54.025 14.34 lineto
+54.206 14.326 lineto
+54.363 14.312 54.76 14.25 55.037 13.937 curveto
+55.326 13.614 55.344 12.813 55.344 11.215 curveto
+55.344 8.534 lineto
+55.344 7.38 55.326 6.886 55.159 6.635 curveto
+54.968 6.359 54.544 6.33 54.319 6.313 curveto
+54.289 6.312 54.264 6.308 54.241 6.307 curveto
+54.062 6.289 lineto
+54.062 5.752 lineto
+54.274 5.769 lineto
+54.311 5.773 54.357 5.773 54.418 5.773 curveto
+54.708 5.773 55.391 5.734 56.112 5.594 curveto
+56.665 5.506 56.986 5.316 57.103 5.261 curveto
+57.21 5.212 lineto
+57.395 5.322 lineto
+57.395 6.067 lineto
+57.868 5.716 58.82 5.165 60.114 5.165 curveto
+61.805 5.165 62.91 5.956 63.225 7.39 curveto
+63.314 7.746 63.347 8.609 63.347 9.069 curveto
+63.347 11.807 lineto
+63.347 13.355 63.408 13.79 63.698 14.062 curveto
+63.844 14.196 64.153 14.307 64.423 14.324 curveto
+64.608 14.338 lineto
+64.608 14.776 lineto
+64.143 14.752 lineto
+63.47 14.717 62.89 14.686 62.281 14.686 curveto
+61.589 14.686 60.989 14.686 60.153 14.764 curveto
+59.935 14.785 lineto
+59.935 14.351 lineto
+60.104 14.329 lineto
+60.468 14.272 60.721 14.169 60.882 14.008 curveto
+61.186 13.704 61.201 12.983 61.225 12.359 curveto
+61.229 12.256 61.233 12.147 61.238 12.034 curveto
+61.256 11.684 61.256 10.946 61.256 10.407 curveto
+61.256 9.705 61.256 8.979 61.18 8.262 curveto
+61.04 7.049 60.408 6.485 59.188 6.485 curveto
+58.35 6.485 57.827 6.677 57.432 6.88 curveto
+57.432 11.807 lineto
+57.432 13.355 57.494 13.79 57.784 14.062 curveto
+57.932 14.196 58.237 14.307 58.51 14.324 curveto
+58.694 14.338 lineto
+58.694 14.776 lineto
+58.194 14.751 lineto
+57.544 14.716 56.982 14.686 56.391 14.686 curveto
+55.712 14.686 55.075 14.686 54.237 14.764 curveto
+54.025 14.785 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+65.725 14.785 M
+65.725 14.33 lineto
+65.908 14.316 lineto
+66.067 14.305 66.465 14.242 66.741 13.93 curveto
+67.033 13.606 67.046 12.813 67.046 11.215 curveto
+67.046 6.565 lineto
+65.824 6.565 lineto
+65.824 6.039 lineto
+65.947 5.987 lineto
+66.478 5.768 66.805 5.594 67.046 5.406 curveto
+67.048 4.574 67.073 3.503 67.186 2.919 curveto
+67.558 0.983 68.823 0 70.951 0 curveto
+71.864 0 72.735 0.305 73.241 0.715 curveto
+73.313 0.773 lineto
+73.342 0.973 lineto
+72.41 2.267 lineto
+72.187 2.269 lineto
+72.136 2.152 lineto
+71.78 1.357 71.263 1.045 70.556 1.045 curveto
+70.262 1.045 69.86 1.133 69.611 1.382 curveto
+69.204 1.787 69.136 2.391 69.136 3.588 curveto
+69.136 5.401 lineto
+71.225 5.401 lineto
+71.225 6.565 lineto
+69.136 6.565 lineto
+69.136 11.767 lineto
+69.136 13.006 69.177 13.609 69.338 13.851 curveto
+69.601 14.246 70.399 14.276 70.634 14.276 curveto
+70.832 14.276 lineto
+70.832 14.776 lineto
+70.624 14.764 lineto
+69.591 14.71 68.823 14.686 68.268 14.686 curveto
+67.571 14.686 66.78 14.686 65.941 14.764 curveto
+65.725 14.785 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+76.514 14.943 M
+73.652 14.943 71.941 13.159 71.941 10.172 curveto
+71.941 7.853 73.191 5.144 76.712 5.144 curveto
+79.576 5.144 81.287 6.929 81.287 9.914 curveto
+81.287 12.234 80.037 14.943 76.514 14.943 curveto
+closepath
+76.632 6.228 M
+76.08 6.228 75.632 6.372 75.306 6.654 curveto
+74.551 7.286 74.169 8.436 74.169 10.072 curveto
+74.169 10.705 74.286 13.859 76.596 13.859 curveto
+77.146 13.859 77.596 13.714 77.926 13.433 curveto
+78.677 12.801 79.059 11.651 79.059 10.015 curveto
+79.059 9.382 78.942 6.228 76.632 6.228 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+82.191 14.785 M
+82.191 14.311 lineto
+82.374 14.295 lineto
+82.534 14.285 82.935 14.223 83.209 13.908 curveto
+83.501 13.585 83.512 12.813 83.512 11.215 curveto
+83.512 8.534 lineto
+83.512 7.38 83.497 6.886 83.331 6.635 curveto
+83.139 6.359 82.717 6.33 82.489 6.313 curveto
+82.462 6.312 82.434 6.308 82.415 6.307 curveto
+82.232 6.288 lineto
+82.232 5.72 lineto
+82.434 5.724 lineto
+82.47 5.727 82.53 5.728 82.588 5.728 curveto
+82.88 5.728 83.563 5.692 84.283 5.551 curveto
+84.738 5.475 85.131 5.358 85.289 5.284 curveto
+85.398 5.235 lineto
+85.563 5.321 lineto
+85.563 6.136 lineto
+86.013 5.712 86.725 5.263 87.733 5.263 curveto
+88.388 5.263 88.918 5.438 89.303 5.786 curveto
+89.367 5.845 lineto
+89.367 6.14 lineto
+88.577 7.588 lineto
+88.198 7.588 lineto
+88.139 7.496 lineto
+87.919 7.152 87.48 6.742 86.627 6.742 curveto
+86.238 6.742 85.902 6.839 85.604 7.039 curveto
+85.604 11.767 lineto
+85.604 13.006 85.645 13.59 85.806 13.832 curveto
+86.071 14.225 86.865 14.256 87.1 14.256 curveto
+87.297 14.256 lineto
+87.297 14.776 lineto
+87.09 14.764 lineto
+86.059 14.71 85.289 14.686 84.734 14.686 curveto
+84.038 14.686 83.248 14.686 82.409 14.764 curveto
+82.191 14.785 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+96.939 14.915 M
+96.688 14.832 lineto
+96.688 14.042 lineto
+96.224 14.386 95.301 14.922 94.068 14.922 curveto
+91.492 14.922 89.826 13.135 89.826 10.368 curveto
+89.826 9.451 90.007 8.579 90.34 7.843 curveto
+91.124 6.14 92.758 5.165 94.815 5.165 curveto
+95.57 5.165 96.245 5.259 96.648 5.345 curveto
+96.648 3.35 lineto
+96.648 2.181 96.632 1.558 96.465 1.307 curveto
+96.274 1.033 95.864 1.002 95.642 0.985 curveto
+95.613 0.984 95.587 0.983 95.566 0.979 curveto
+95.389 0.962 lineto
+95.43 0.541 lineto
+95.628 0.541 lineto
+95.673 0.541 96.757 0.452 97.638 0.278 curveto
+98.008 0.218 98.374 0.135 98.564 0.065 curveto
+98.658 0.03 lineto
+98.819 0.126 lineto
+98.811 0.218 lineto
+98.749 0.992 98.739 2.644 98.739 3.882 curveto
+98.739 11.531 lineto
+98.739 12.674 98.755 13.382 98.92 13.609 curveto
+99.115 13.888 99.524 13.934 99.745 13.952 curveto
+99.775 13.953 99.802 13.955 99.823 13.958 curveto
+100 13.965 lineto
+100 14.469 lineto
+99.804 14.469 lineto
+99.594 14.469 98.774 14.526 97.983 14.662 curveto
+97.527 14.736 97.191 14.802 97.025 14.878 curveto
+96.939 14.915 lineto
+closepath
+94.774 6.288 M
+92.947 6.288 92.054 7.54 92.054 10.113 curveto
+92.054 11.156 92.35 13.581 95.074 13.581 curveto
+95.161 13.581 lineto
+95.492 13.581 96.109 13.532 96.648 13.199 curveto
+96.648 6.916 lineto
+96.494 6.765 95.926 6.288 94.774 6.288 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+29.623 18.871 M
+31.141 18.871 lineto
+32.55 22.718 lineto
+33.064 24.2 lineto
+33.112 24.2 lineto
+33.625 22.718 lineto
+35 18.871 lineto
+36.529 18.871 lineto
+36.529 26.685 lineto
+35.227 26.685 lineto
+35.227 23.113 lineto
+35.227 22.384 35.335 21.344 35.406 20.627 curveto
+35.358 20.627 lineto
+34.725 22.408 lineto
+33.374 25.956 lineto
+32.741 25.956 lineto
+31.392 22.408 lineto
+30.77 20.627 lineto
+30.723 20.627 lineto
+30.782 21.344 30.89 22.384 30.89 23.113 curveto
+30.89 26.685 lineto
+29.623 26.685 lineto
+29.623 18.871 lineto
+29.623 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+41.482 18.871 M
+46.178 18.871 lineto
+46.178 20.042 lineto
+42.868 20.042 lineto
+42.868 22.037 lineto
+45.676 22.037 lineto
+45.676 23.208 lineto
+42.868 23.208 lineto
+42.868 25.514 lineto
+46.297 25.514 lineto
+46.297 26.685 lineto
+41.482 26.685 lineto
+41.482 18.871 lineto
+41.482 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+50.853 18.871 M
+52.932 18.871 lineto
+55.322 18.871 56.744 20.162 56.744 22.742 curveto
+56.744 25.334 55.322 26.685 53.004 26.685 curveto
+50.853 26.685 lineto
+50.853 18.871 lineto
+50.853 18.871 lineto
+closepath
+52.837 25.562 M
+54.414 25.562 55.322 24.666 55.322 22.742 curveto
+55.322 20.83 54.414 19.994 52.837 19.994 curveto
+52.24 19.994 lineto
+52.24 25.562 lineto
+52.837 25.562 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+61.29 18.871 M
+62.676 18.871 lineto
+62.676 26.685 lineto
+61.29 26.685 lineto
+61.29 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+70.803 18.728 M
+71.76 18.728 72.536 19.193 73.025 19.719 curveto
+72.26 20.58 lineto
+71.855 20.185 71.413 19.934 70.815 19.934 curveto
+69.537 19.934 68.617 21.01 68.617 22.766 curveto
+68.617 24.546 69.466 25.622 70.767 25.622 curveto
+71.461 25.622 71.974 25.335 72.416 24.845 curveto
+73.181 25.693 lineto
+72.548 26.422 71.735 26.828 70.744 26.828 curveto
+68.76 26.828 67.195 25.394 67.195 22.802 curveto
+67.195 20.245 68.796 18.728 70.803 18.728 curveto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+77.452 18.871 M
+78.838 18.871 lineto
+78.838 26.685 lineto
+77.452 26.685 lineto
+77.452 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+83.775 18.871 M
+85.197 18.871 lineto
+87.623 23.268 lineto
+88.435 24.928 lineto
+88.483 24.928 lineto
+88.411 24.128 88.304 23.136 88.304 22.264 curveto
+88.304 18.871 lineto
+89.618 18.871 lineto
+89.618 26.685 lineto
+88.196 26.685 lineto
+85.77 22.288 lineto
+84.958 20.627 lineto
+84.91 20.627 lineto
+84.981 21.452 85.089 22.396 85.089 23.268 curveto
+85.089 26.685 lineto
+83.775 26.685 lineto
+83.775 18.871 lineto
+83.775 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+0.133 0.122 0.122 setrgbcolor
+newpath
+94.57 18.871 M
+99.266 18.871 lineto
+99.266 20.042 lineto
+95.956 20.042 lineto
+95.956 22.037 lineto
+98.764 22.037 lineto
+98.764 23.208 lineto
+95.956 23.208 lineto
+95.956 25.514 lineto
+99.384 25.514 lineto
+99.384 26.685 lineto
+94.57 26.685 lineto
+94.57 18.871 lineto
+94.57 18.871 lineto
+94.57 18.871 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+112.336 22.232 M
+113.821 22.232 lineto
+114.86 22.232 115.414 21.814 QUADTO 
+115.967 21.395 115.967 20.518 QUADTO 
+115.967 19.64 115.414 19.289 QUADTO 
+114.86 18.938 113.821 18.938 QUADTO 
+112.336 18.938 lineto
+112.336 22.232 lineto
+closepath
+116.075 26.89 M
+113.942 23.15 lineto
+112.336 23.15 lineto
+112.336 26.89 lineto
+111.215 26.89 lineto
+111.215 18.034 lineto
+113.983 18.034 lineto
+114.658 18.034 115.225 18.155 QUADTO 
+115.792 18.277 116.21 18.587 QUADTO 
+116.629 18.898 116.858 19.357 QUADTO 
+117.088 19.816 117.088 20.518 QUADTO 
+117.088 21.557 116.548 22.178 QUADTO 
+116.008 22.799 115.103 23.029 QUADTO 
+117.344 26.89 lineto
+116.075 26.89 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+119.026 25.189 M
+119.026 24.109 119.985 23.542 QUADTO 
+120.943 22.975 123.063 22.732 QUADTO 
+123.063 22.421 123.009 22.124 QUADTO 
+122.955 21.827 122.793 21.598 QUADTO 
+122.631 21.368 122.374 21.233 QUADTO 
+122.118 21.098 121.713 21.085 QUADTO 
+121.132 21.085 120.646 21.301 QUADTO 
+120.16 21.517 119.755 21.787 QUADTO 
+119.31 21.017 lineto
+119.769 20.72 120.43 20.45 QUADTO 
+121.092 20.18 121.888 20.167 QUADTO 
+123.09 20.167 123.63 20.896 QUADTO 
+124.17 21.625 124.17 22.867 QUADTO 
+124.17 26.89 lineto
+123.252 26.89 lineto
+123.157 26.107 lineto
+123.13 26.107 lineto
+122.658 26.498 122.118 26.768 QUADTO 
+121.578 27.038 120.957 27.052 QUADTO 
+120.12 27.052 119.58 26.566 QUADTO 
+119.04 26.08 119.026 25.189 QUADTO 
+closepath
+120.12 25.108 M
+120.12 25.675 120.444 25.918 QUADTO 
+120.768 26.161 121.267 26.161 QUADTO 
+121.74 26.161 122.158 25.945 QUADTO 
+122.577 25.729 123.063 25.283 QUADTO 
+123.063 23.461 lineto
+122.239 23.569 121.672 23.717 QUADTO 
+121.105 23.866 120.768 24.068 QUADTO 
+120.43 24.271 120.268 24.527 QUADTO 
+120.106 24.784 120.12 25.108 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+126.19 23.623 M
+126.19 22.826 126.419 22.192 QUADTO 
+126.649 21.557 127.054 21.098 QUADTO 
+127.459 20.639 127.958 20.41 QUADTO 
+128.458 20.18 129.038 20.167 QUADTO 
+129.605 20.167 130.024 20.369 QUADTO 
+130.442 20.572 130.874 20.923 QUADTO 
+130.82 19.802 lineto
+130.82 17.278 lineto
+131.941 17.278 lineto
+131.941 26.89 lineto
+131.023 26.89 lineto
+130.928 26.12 lineto
+130.888 26.12 lineto
+130.496 26.498 129.997 26.768 QUADTO 
+129.497 27.038 128.903 27.052 QUADTO 
+127.661 27.052 126.932 26.161 QUADTO 
+126.203 25.27 126.19 23.623 QUADTO 
+closepath
+127.337 23.609 M
+127.337 24.797 127.81 25.459 QUADTO 
+128.282 26.12 129.146 26.12 QUADTO 
+129.605 26.12 130.01 25.904 QUADTO 
+130.415 25.688 130.82 25.216 QUADTO 
+130.82 21.787 lineto
+130.402 21.409 130.024 21.26 QUADTO 
+129.646 21.112 129.227 21.098 QUADTO 
+128.836 21.098 128.498 21.274 QUADTO 
+128.161 21.449 127.891 21.787 QUADTO 
+127.621 22.124 127.486 22.583 QUADTO 
+127.351 23.042 127.337 23.609 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+135.122 18.979 M
+134.798 18.979 134.582 18.776 QUADTO 
+134.366 18.574 134.352 18.263 QUADTO 
+134.352 17.939 134.568 17.75 QUADTO 
+134.784 17.561 135.122 17.548 QUADTO 
+135.446 17.548 135.662 17.737 QUADTO 
+135.878 17.926 135.891 18.263 QUADTO 
+135.891 18.574 135.675 18.776 QUADTO 
+135.459 18.979 135.122 18.979 QUADTO 
+closepath
+134.555 20.329 M
+135.662 20.329 lineto
+135.662 26.89 lineto
+134.555 26.89 lineto
+134.555 20.329 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+137.79 23.623 M
+137.79 22.799 138.033 22.165 QUADTO 
+138.276 21.53 138.708 21.071 QUADTO 
+139.14 20.612 139.667 20.396 QUADTO 
+140.193 20.18 140.828 20.167 QUADTO 
+141.435 20.167 141.975 20.396 QUADTO 
+142.515 20.626 142.947 21.071 QUADTO 
+143.379 21.517 143.609 22.151 QUADTO 
+143.838 22.786 143.865 23.623 QUADTO 
+143.865 24.433 143.622 25.067 QUADTO 
+143.379 25.702 142.947 26.147 QUADTO 
+142.515 26.593 141.989 26.822 QUADTO 
+141.462 27.052 140.828 27.052 QUADTO 
+140.22 27.052 139.68 26.822 QUADTO 
+139.14 26.593 138.708 26.161 QUADTO 
+138.276 25.729 138.047 25.081 QUADTO 
+137.817 24.433 137.79 23.623 QUADTO 
+closepath
+138.938 23.623 M
+138.938 24.19 139.073 24.649 QUADTO 
+139.208 25.108 139.451 25.432 QUADTO 
+139.694 25.756 140.058 25.945 QUADTO 
+140.423 26.134 140.828 26.134 QUADTO 
+141.246 26.134 141.597 25.958 QUADTO 
+141.948 25.783 142.191 25.445 QUADTO 
+142.434 25.108 142.583 24.649 QUADTO 
+142.731 24.19 142.718 23.623 QUADTO 
+142.718 23.056 142.583 22.597 QUADTO 
+142.448 22.138 142.205 21.787 QUADTO 
+141.962 21.436 141.597 21.274 QUADTO 
+141.233 21.112 140.828 21.085 QUADTO 
+140.409 21.085 140.058 21.26 QUADTO 
+139.707 21.436 139.464 21.787 QUADTO 
+139.221 22.138 139.073 22.583 QUADTO 
+138.924 23.029 138.938 23.623 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+145.993 17.278 M
+147.1 17.278 lineto
+147.1 25.648 lineto
+147.1 25.918 147.195 26.026 QUADTO 
+147.289 26.134 147.411 26.134 QUADTO 
+147.465 26.134 147.505 26.134 QUADTO 
+147.546 26.134 147.654 26.107 QUADTO 
+147.802 26.944 lineto
+147.694 26.998 147.546 27.025 QUADTO 
+147.397 27.052 147.168 27.052 QUADTO 
+146.533 27.052 146.263 26.674 QUADTO 
+145.993 26.296 145.993 25.567 QUADTO 
+145.993 17.278 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+149.35 23.623 M
+149.35 22.799 149.593 22.165 QUADTO 
+149.836 21.53 150.268 21.071 QUADTO 
+150.7 20.612 151.226 20.396 QUADTO 
+151.753 20.18 152.387 20.167 QUADTO 
+152.995 20.167 153.535 20.396 QUADTO 
+154.075 20.626 154.507 21.071 QUADTO 
+154.939 21.517 155.168 22.151 QUADTO 
+155.398 22.786 155.425 23.623 QUADTO 
+155.425 24.433 155.182 25.067 QUADTO 
+154.939 25.702 154.507 26.147 QUADTO 
+154.075 26.593 153.548 26.822 QUADTO 
+153.022 27.052 152.387 27.052 QUADTO 
+151.78 27.052 151.24 26.822 QUADTO 
+150.7 26.593 150.268 26.161 QUADTO 
+149.836 25.729 149.606 25.081 QUADTO 
+149.377 24.433 149.35 23.623 QUADTO 
+closepath
+150.497 23.623 M
+150.497 24.19 150.632 24.649 QUADTO 
+150.767 25.108 151.01 25.432 QUADTO 
+151.253 25.756 151.618 25.945 QUADTO 
+151.982 26.134 152.387 26.134 QUADTO 
+152.806 26.134 153.157 25.958 QUADTO 
+153.508 25.783 153.751 25.445 QUADTO 
+153.994 25.108 154.142 24.649 QUADTO 
+154.291 24.19 154.277 23.623 QUADTO 
+154.277 23.056 154.142 22.597 QUADTO 
+154.007 22.138 153.764 21.787 QUADTO 
+153.521 21.436 153.157 21.274 QUADTO 
+152.792 21.112 152.387 21.085 QUADTO 
+151.969 21.085 151.618 21.26 QUADTO 
+151.267 21.436 151.024 21.787 QUADTO 
+150.781 22.138 150.632 22.583 QUADTO 
+150.484 23.029 150.497 23.623 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+158.025 27.997 M
+158.025 28.523 158.525 28.834 QUADTO 
+159.024 29.144 159.929 29.144 QUADTO 
+160.401 29.144 160.779 29.036 QUADTO 
+161.157 28.928 161.441 28.739 QUADTO 
+161.724 28.55 161.859 28.307 QUADTO 
+161.994 28.064 162.008 27.808 QUADTO 
+162.008 27.349 161.67 27.173 QUADTO 
+161.333 26.998 160.685 26.998 QUADTO 
+159.551 26.998 lineto
+159.362 26.998 159.146 26.984 QUADTO 
+158.93 26.971 158.7 26.89 QUADTO 
+158.349 27.146 158.187 27.43 QUADTO 
+158.025 27.713 158.025 27.997 QUADTO 
+closepath
+157.053 28.145 M
+157.053 27.727 157.31 27.349 QUADTO 
+157.566 26.971 158.012 26.66 QUADTO 
+158.012 26.606 lineto
+157.769 26.458 157.607 26.201 QUADTO 
+157.445 25.945 157.431 25.54 QUADTO 
+157.431 25.121 157.661 24.811 QUADTO 
+157.89 24.5 158.147 24.325 QUADTO 
+158.147 24.271 lineto
+157.823 24.001 157.566 23.555 QUADTO 
+157.31 23.11 157.296 22.502 QUADTO 
+157.296 21.962 157.485 21.53 QUADTO 
+157.674 21.098 158.025 20.801 QUADTO 
+158.376 20.504 158.808 20.329 QUADTO 
+159.24 20.153 159.767 20.167 QUADTO 
+160.037 20.167 160.266 20.207 QUADTO 
+160.496 20.248 160.698 20.329 QUADTO 
+162.98 20.329 lineto
+162.98 21.179 lineto
+161.63 21.179 lineto
+161.859 21.409 162.008 21.76 QUADTO 
+162.156 22.111 162.17 22.529 QUADTO 
+162.17 23.056 161.981 23.474 QUADTO 
+161.792 23.893 161.468 24.19 QUADTO 
+161.144 24.487 160.712 24.649 QUADTO 
+160.28 24.811 159.767 24.811 QUADTO 
+159.524 24.811 159.267 24.757 QUADTO 
+159.011 24.703 158.781 24.581 QUADTO 
+158.606 24.73 158.484 24.905 QUADTO 
+158.363 25.081 158.363 25.364 QUADTO 
+158.363 25.675 158.606 25.877 QUADTO 
+158.849 26.08 159.524 26.08 QUADTO 
+160.793 26.08 lineto
+161.94 26.08 162.507 26.444 QUADTO 
+163.074 26.809 163.088 27.646 QUADTO 
+163.088 28.105 162.858 28.51 QUADTO 
+162.629 28.915 162.197 29.239 QUADTO 
+161.765 29.563 161.157 29.725 QUADTO 
+160.55 29.887 159.767 29.914 QUADTO 
+159.159 29.914 158.66 29.806 QUADTO 
+158.16 29.698 157.809 29.455 QUADTO 
+157.458 29.212 157.256 28.901 QUADTO 
+157.053 28.591 157.053 28.145 QUADTO 
+closepath
+159.767 24.068 M
+160.05 24.068 160.293 23.96 QUADTO 
+160.536 23.852 160.739 23.65 QUADTO 
+160.941 23.447 161.049 23.164 QUADTO 
+161.157 22.88 161.157 22.502 QUADTO 
+161.157 21.773 160.752 21.382 QUADTO 
+160.347 20.99 159.767 20.977 QUADTO 
+159.186 20.977 158.781 21.368 QUADTO 
+158.376 21.76 158.376 22.502 QUADTO 
+158.376 22.867 158.484 23.15 QUADTO 
+158.592 23.434 158.781 23.65 QUADTO 
+158.97 23.866 159.227 23.96 QUADTO 
+159.483 24.055 159.767 24.068 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+164.311 28.699 M
+164.419 28.726 164.554 28.753 QUADTO 
+164.689 28.78 164.811 28.793 QUADTO 
+165.378 28.793 165.729 28.402 QUADTO 
+166.08 28.01 166.296 27.389 QUADTO 
+166.444 26.903 lineto
+163.812 20.329 lineto
+164.959 20.329 lineto
+166.296 23.96 lineto
+166.444 24.392 166.606 24.865 QUADTO 
+166.768 25.337 166.93 25.81 QUADTO 
+166.984 25.81 lineto
+167.133 25.364 167.268 24.878 QUADTO 
+167.403 24.392 167.538 23.96 QUADTO 
+168.712 20.329 lineto
+169.792 20.329 lineto
+167.322 27.43 lineto
+167.146 27.916 166.93 28.334 QUADTO 
+166.714 28.753 166.417 29.05 QUADTO 
+166.12 29.347 165.742 29.536 QUADTO 
+165.364 29.725 164.865 29.711 QUADTO 
+164.635 29.711 164.446 29.684 QUADTO 
+164.257 29.657 164.095 29.576 QUADTO 
+164.311 28.699 lineto
+164.311 28.699 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+174.696 18.034 M
+175.817 18.034 lineto
+175.817 26.89 lineto
+174.696 26.89 lineto
+174.696 18.034 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+178.539 20.329 M
+179.457 20.329 lineto
+179.551 21.274 lineto
+179.592 21.274 lineto
+180.064 20.801 180.577 20.491 QUADTO 
+181.09 20.18 181.792 20.167 QUADTO 
+182.832 20.167 183.304 20.815 QUADTO 
+183.777 21.463 183.79 22.732 QUADTO 
+183.79 26.89 lineto
+182.683 26.89 lineto
+182.683 22.88 lineto
+182.683 21.949 182.386 21.544 QUADTO 
+182.089 21.139 181.441 21.125 QUADTO 
+180.928 21.125 180.537 21.382 QUADTO 
+180.145 21.638 179.646 22.138 QUADTO 
+179.646 26.89 lineto
+178.539 26.89 lineto
+178.539 20.329 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+189.28 18.182 M
+188.915 18.02 188.537 18.02 QUADTO 
+187.619 18.02 187.619 19.289 QUADTO 
+187.619 20.329 lineto
+189.01 20.329 lineto
+189.01 21.233 lineto
+187.619 21.233 lineto
+187.619 26.89 lineto
+186.512 26.89 lineto
+186.512 21.233 lineto
+185.621 21.233 lineto
+185.621 20.396 lineto
+186.512 20.329 lineto
+186.512 19.289 lineto
+186.512 18.277 186.971 17.696 QUADTO 
+187.43 17.116 188.429 17.116 QUADTO 
+188.74 17.116 189.01 17.17 QUADTO 
+189.28 17.224 189.523 17.332 QUADTO 
+189.28 18.182 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+190.179 23.623 M
+190.179 22.799 190.422 22.165 QUADTO 
+190.665 21.53 191.097 21.071 QUADTO 
+191.529 20.612 192.056 20.396 QUADTO 
+192.582 20.18 193.217 20.167 QUADTO 
+193.824 20.167 194.364 20.396 QUADTO 
+194.904 20.626 195.336 21.071 QUADTO 
+195.768 21.517 195.998 22.151 QUADTO 
+196.227 22.786 196.254 23.623 QUADTO 
+196.254 24.433 196.011 25.067 QUADTO 
+195.768 25.702 195.336 26.147 QUADTO 
+194.904 26.593 194.378 26.822 QUADTO 
+193.851 27.052 193.217 27.052 QUADTO 
+192.609 27.052 192.069 26.822 QUADTO 
+191.529 26.593 191.097 26.161 QUADTO 
+190.665 25.729 190.436 25.081 QUADTO 
+190.206 24.433 190.179 23.623 QUADTO 
+closepath
+191.327 23.623 M
+191.327 24.19 191.462 24.649 QUADTO 
+191.597 25.108 191.84 25.432 QUADTO 
+192.083 25.756 192.447 25.945 QUADTO 
+192.812 26.134 193.217 26.134 QUADTO 
+193.635 26.134 193.986 25.958 QUADTO 
+194.337 25.783 194.58 25.445 QUADTO 
+194.823 25.108 194.972 24.649 QUADTO 
+195.12 24.19 195.107 23.623 QUADTO 
+195.107 23.056 194.972 22.597 QUADTO 
+194.837 22.138 194.594 21.787 QUADTO 
+194.351 21.436 193.986 21.274 QUADTO 
+193.622 21.112 193.217 21.085 QUADTO 
+192.798 21.085 192.447 21.26 QUADTO 
+192.096 21.436 191.853 21.787 QUADTO 
+191.61 22.138 191.462 22.583 QUADTO 
+191.313 23.029 191.327 23.623 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+198.382 20.329 M
+199.3 20.329 lineto
+199.395 21.517 lineto
+199.435 21.517 lineto
+199.773 20.896 200.245 20.531 QUADTO 
+200.718 20.167 201.298 20.167 QUADTO 
+201.69 20.167 202 20.302 QUADTO 
+201.784 21.274 lineto
+201.622 21.22 201.487 21.193 QUADTO 
+201.352 21.166 201.15 21.166 QUADTO 
+200.731 21.166 200.286 21.503 QUADTO 
+199.84 21.841 199.489 22.678 QUADTO 
+199.489 26.89 lineto
+198.382 26.89 lineto
+198.382 20.329 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+203.467 20.329 M
+204.385 20.329 lineto
+204.479 21.274 lineto
+204.52 21.274 lineto
+204.952 20.801 205.451 20.491 QUADTO 
+205.951 20.18 206.558 20.167 QUADTO 
+207.314 20.167 207.733 20.491 QUADTO 
+208.151 20.815 208.367 21.422 QUADTO 
+208.88 20.855 209.393 20.518 QUADTO 
+209.906 20.18 210.527 20.167 QUADTO 
+211.54 20.167 212.026 20.815 QUADTO 
+212.512 21.463 212.525 22.732 QUADTO 
+212.525 26.89 lineto
+211.418 26.89 lineto
+211.418 22.88 lineto
+211.418 21.949 211.121 21.544 QUADTO 
+210.824 21.139 210.203 21.125 QUADTO 
+209.461 21.125 208.556 22.138 QUADTO 
+208.556 26.89 lineto
+207.449 26.89 lineto
+207.449 22.88 lineto
+207.449 21.949 207.152 21.544 QUADTO 
+206.855 21.139 206.221 21.125 QUADTO 
+205.478 21.125 204.574 22.138 QUADTO 
+204.574 26.89 lineto
+203.467 26.89 lineto
+203.467 20.329 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+214.734 25.189 M
+214.734 24.109 215.693 23.542 QUADTO 
+216.651 22.975 218.771 22.732 QUADTO 
+218.771 22.421 218.717 22.124 QUADTO 
+218.663 21.827 218.501 21.598 QUADTO 
+218.339 21.368 218.082 21.233 QUADTO 
+217.826 21.098 217.421 21.085 QUADTO 
+216.84 21.085 216.354 21.301 QUADTO 
+215.868 21.517 215.463 21.787 QUADTO 
+215.018 21.017 lineto
+215.477 20.72 216.138 20.45 QUADTO 
+216.8 20.18 217.596 20.167 QUADTO 
+218.798 20.167 219.338 20.896 QUADTO 
+219.878 21.625 219.878 22.867 QUADTO 
+219.878 26.89 lineto
+218.96 26.89 lineto
+218.865 26.107 lineto
+218.838 26.107 lineto
+218.366 26.498 217.826 26.768 QUADTO 
+217.286 27.038 216.665 27.052 QUADTO 
+215.828 27.052 215.288 26.566 QUADTO 
+214.748 26.08 214.734 25.189 QUADTO 
+closepath
+215.828 25.108 M
+215.828 25.675 216.152 25.918 QUADTO 
+216.476 26.161 216.975 26.161 QUADTO 
+217.448 26.161 217.866 25.945 QUADTO 
+218.285 25.729 218.771 25.283 QUADTO 
+218.771 23.461 lineto
+217.947 23.569 217.38 23.717 QUADTO 
+216.813 23.866 216.476 24.068 QUADTO 
+216.138 24.271 215.976 24.527 QUADTO 
+215.814 24.784 215.828 25.108 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+222.559 21.233 M
+221.587 21.233 lineto
+221.587 20.396 lineto
+222.613 20.329 lineto
+222.748 18.493 lineto
+223.68 18.493 lineto
+223.68 20.329 lineto
+225.448 20.329 lineto
+225.448 21.233 lineto
+223.68 21.233 lineto
+223.68 24.878 lineto
+223.68 25.486 223.896 25.81 QUADTO 
+224.112 26.134 224.692 26.147 QUADTO 
+224.868 26.147 225.07 26.093 QUADTO 
+225.273 26.039 225.435 25.972 QUADTO 
+225.651 26.809 lineto
+225.381 26.903 225.07 26.971 QUADTO 
+224.76 27.038 224.436 27.052 QUADTO 
+223.909 27.052 223.558 26.89 QUADTO 
+223.207 26.728 222.978 26.444 QUADTO 
+222.748 26.161 222.654 25.756 QUADTO 
+222.559 25.351 222.559 24.865 QUADTO 
+222.559 21.233 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+227.9 18.979 M
+227.576 18.979 227.36 18.776 QUADTO 
+227.144 18.574 227.131 18.263 QUADTO 
+227.131 17.939 227.347 17.75 QUADTO 
+227.563 17.561 227.9 17.548 QUADTO 
+228.224 17.548 228.44 17.737 QUADTO 
+228.656 17.926 228.67 18.263 QUADTO 
+228.67 18.574 228.454 18.776 QUADTO 
+228.238 18.979 227.9 18.979 QUADTO 
+closepath
+227.333 20.329 M
+228.44 20.329 lineto
+228.44 26.89 lineto
+227.333 26.89 lineto
+227.333 20.329 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+230.568 23.623 M
+230.568 22.799 230.825 22.165 QUADTO 
+231.081 21.53 231.513 21.071 QUADTO 
+231.945 20.612 232.512 20.396 QUADTO 
+233.079 20.18 233.727 20.167 QUADTO 
+234.375 20.167 234.834 20.396 QUADTO 
+235.293 20.626 235.644 20.95 QUADTO 
+235.091 21.665 lineto
+234.794 21.409 234.483 21.247 QUADTO 
+234.173 21.085 233.768 21.085 QUADTO 
+233.322 21.085 232.944 21.26 QUADTO 
+232.566 21.436 232.296 21.787 QUADTO 
+232.026 22.138 231.878 22.583 QUADTO 
+231.729 23.029 231.716 23.623 QUADTO 
+231.716 24.19 231.864 24.649 QUADTO 
+232.013 25.108 232.269 25.432 QUADTO 
+232.526 25.756 232.917 25.945 QUADTO 
+233.309 26.134 233.741 26.134 QUADTO 
+234.213 26.134 234.591 25.945 QUADTO 
+234.969 25.756 235.28 25.472 QUADTO 
+235.779 26.201 lineto
+235.334 26.593 234.794 26.822 QUADTO 
+234.254 27.052 233.646 27.052 QUADTO 
+232.998 27.052 232.431 26.822 QUADTO 
+231.864 26.593 231.459 26.161 QUADTO 
+231.054 25.729 230.811 25.081 QUADTO 
+230.568 24.433 230.568 23.623 QUADTO 
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+237.435 25.405 M
+237.867 25.756 238.312 25.972 QUADTO 
+238.758 26.188 239.365 26.188 QUADTO 
+240.013 26.188 240.337 25.891 QUADTO 
+240.661 25.594 240.661 25.162 QUADTO 
+240.661 24.905 240.526 24.716 QUADTO 
+240.391 24.527 240.189 24.392 QUADTO 
+239.986 24.257 239.703 24.136 QUADTO 
+239.419 24.014 239.163 23.92 QUADTO 
+238.812 23.798 238.461 23.65 QUADTO 
+238.11 23.501 237.84 23.272 QUADTO 
+237.57 23.042 237.381 22.745 QUADTO 
+237.192 22.448 237.205 22.03 QUADTO 
+237.205 21.638 237.354 21.301 QUADTO 
+237.502 20.963 237.799 20.707 QUADTO 
+238.096 20.45 238.515 20.315 QUADTO 
+238.933 20.18 239.46 20.167 QUADTO 
+240.081 20.167 240.594 20.383 QUADTO 
+241.107 20.599 241.498 20.909 QUADTO 
+240.972 21.611 lineto
+240.634 21.355 240.27 21.193 QUADTO 
+239.905 21.031 239.473 21.031 QUADTO 
+238.852 21.031 238.569 21.314 QUADTO 
+238.285 21.598 238.272 21.976 QUADTO 
+238.272 22.205 238.393 22.367 QUADTO 
+238.515 22.529 238.717 22.664 QUADTO 
+238.92 22.799 239.176 22.894 QUADTO 
+239.433 22.988 239.73 23.11 QUADTO 
+240.081 23.245 240.432 23.393 QUADTO 
+240.783 23.542 241.08 23.758 QUADTO 
+241.377 23.974 241.539 24.311 QUADTO 
+241.701 24.649 241.728 25.094 QUADTO 
+241.728 25.499 241.579 25.85 QUADTO 
+241.431 26.201 241.12 26.471 QUADTO 
+240.81 26.741 240.364 26.89 QUADTO 
+239.919 27.038 239.325 27.052 QUADTO 
+238.623 27.052 237.988 26.795 QUADTO 
+237.354 26.539 236.881 26.147 QUADTO 
+237.435 25.405 lineto
+closepath
+fill
+grestore
+gsave
+[0.40531 0 0 0.40531 0.40531 8.02838] concat
+newpath
+-1 -19.808 M
+245.728 -19.808 lineto
+245.728 46.808 lineto
+-1 46.808 lineto
+-1 -19.808 lineto
+closepath
+clip
+newpath
+105 0 M
+105.6 0 lineto
+105.6 27 lineto
+105 27 lineto
+105 0 lineto
+closepath
+fill
+grestore
+%%Trailer
+%%Pages: 1
+%%EOF

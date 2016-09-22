@@ -1,0 +1,21 @@
+---
+layout: archive
+permalink: /
+author_profile: false
+sidebar:
+  nav: "docs"
+---
+
+
+{% include base_path %}
+
+<a href="/"><img src="/images/logo/web-logo-color-filled-shield.png"/></a>
+<figure class="align-left">
+  <a href="https://sketchfab.com/models/d8147c76e1da472b891ef57a931fb9c3/embed"><img src="/images/logo/brain.png"/></a>
+</figure> 
+
+<div class="grid__wrapper">
+  {% for post in site.posts %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
