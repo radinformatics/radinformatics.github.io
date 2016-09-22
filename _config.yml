@@ -15,6 +15,7 @@ name                     : &labname "Radiology Informatics at Stanford"
 description              : &description "Radiology Informatics at Stanford University"
 url                      : #"https://radinformatics.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
+github                   : "radinformatics"
 repository               : "radinformatics/radinformatics.github.io" # nwo
 logo                     : "/images/logo/web-logo-color-filled-shield.png"
 teaser                   : "logo/web-logo-color-filled-shield.png" # fallback teaser image
