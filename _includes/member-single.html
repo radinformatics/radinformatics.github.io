@@ -17,13 +17,13 @@
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser" style="max-height:none;max-width:200px;">
         <!-- Added fixed width and height for square images-->
-        <img style="height:200px;width:200px" src=
+        <a href="{{ post.link }}"><img style="height:200px;width:200px" src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
+          alt=""></a>
       </div>
     {% endif %}
     <h2 class="archive__item-title" itemprop="headline">
