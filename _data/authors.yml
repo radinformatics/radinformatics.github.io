@@ -13,3 +13,12 @@ Elizabeth Colvin:
   bio: "Administrative Associate"
   role: "Administrative Associate"
   avatar: "bio/elizabethcolvin.jpg"
+
+Matthew Lungren:
+    name: "Matthew Lungren"
+    email: "mlungren@stanford.edu"
+    bio: "Assistant Professor of Radiology at Stanford University"
+    role: "Lab Faculty"
+    avatar: "bio/mlungren.jpg"
+    twitter: "mattlungrenmd"
+    github: mlungren
