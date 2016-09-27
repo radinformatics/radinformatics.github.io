@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Matt Lungren"
-author: Matt Lungren
+author: Matthew Lungren
 header:
   teaser: "bio/mlungren.jpg"
 excerpt: "Assistant Professor of Radiology, Lab Faculty" 
