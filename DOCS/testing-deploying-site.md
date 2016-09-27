@@ -26,6 +26,8 @@ Now you can see the site locally by running the server with jekyll:
 bundle exec jekyll serve
 ```
 
+(Note: I don't use a Mac and I didn't install the packages using the Gemfile as above - so if you hit any errors with this process please submit an issue! If there are problems then @vsoch can make a dockerized development environment). 
+
 This will make the site viewable at `http://localhost:4000/` If you want a nice look into how this works, you will probably want to look into the <a href="https://github.com/radinformatics/radinformatics.github.io/blob/master/_config.yml" target="_blank">config</a> file, or ask @vsoch (v) questions on Slack or the Google Group.
 
 
