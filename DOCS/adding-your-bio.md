@@ -77,4 +77,4 @@ You don't need to change `layout`. The `title` should be what you want for the h
 
 Once you have this header done, you can go to down with the content! Both markdown and html are supported. If you need help with something, ping @vsoch.
 
-Great job! That's it. You next should preview the page, and push to Github. For instructions on these steps, see the [testing-deploying-site.md](testing-deploying-site.md) notebook.
+Great job! That's it. You next should preview the page, and push to Github. For instructions on these steps, see the [setting-up-development.md](setting-up-development.md) notebook.

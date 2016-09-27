@@ -61,3 +61,7 @@ All of the pages are in the <a href="https://github.com/radinformatics/radinform
 ## Adding your bio
 
 Full instructions for adding your bio are included in [adding-your-bio.md](adding-your-bio.md)
+
+Now that you are ready to go, you might want to look at [working-with-github.md](working-with-github.md)
+
+
