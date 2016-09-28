@@ -23,4 +23,77 @@ Matthew Lungren:
     twitter: "mattlungrenmd"
     linkedin: "matthew-lungren-md-mph-4303009"
     github: "mlungren"
+
+Rui Shu:
+    name: "Rui Shu"
+    email: ""
+    bio: "Graduate Student"
+    role: "Student Researcher"
+    avatar: "bio/ruishu.jpg"
+    github:
+
+Matt Chen:
+    name: "Matt Chen"
+    email: ""
+    bio: "Graduate Student"
+    role: "Student Researcher"
+    avatar: "bio/mattchen.jpg"
+    github: ""
+
+Yu Yan:
+    name: "Yu Yan"
+    email: ""
+    bio: "Graduate Student"
+    role: "Student Researcher"
+    avatar: "bio/yuyan.jpg"
+    github: ""
     
+
+Maxwell Cheong:
+    name: "Maxwell Cheong"
+    email: ""
+    bio: "Graduate Student"
+    role: "Student Researcher"
+    avatar: "bio/maxwellcheong.jpg"
+    github: ""
+    
+
+David Larson:
+    name: "David Larson"
+    email: ""
+    bio: ""
+    role: ""
+    avatar: "bio/davidlarson.jpg"
+    github: ""
+
+Safwan Halabi:
+    name: "Safwan Halabi"
+    email: ""
+    bio: ""
+    role: ""
+    avatar: "bio/safwanhalabi.jpg"
+    github: ""
+
+Chris Beaulieu:
+    name: "Chris Beaulieu"
+    email: ""
+    bio: ""
+    role: ""
+    avatar: "bio/chrisbeaulieu.jpg"
+    github: ""
+
+Rusty Hoffman:
+    name: "Rusty Hoffman"
+    email: ""
+    bio: ""
+    role: ""
+    avatar: "bio/rustyhoffman.jpg"
+    github: ""
+
+Mike Muelly:
+    name: "Mike Muelly"
+    email: ""
+    bio: ""
+    role: ""
+    avatar: "bio/mikemuelly.jpg"
+    github: ""

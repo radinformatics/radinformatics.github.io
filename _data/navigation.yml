@@ -31,6 +31,8 @@ docs:
     children:
       - title: "Machine Learning"
         url: #
+      - title: "Deep Learning"
+        url: #
       - title: "Natural Language Processing"
         url: #
 
