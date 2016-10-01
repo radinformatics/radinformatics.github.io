@@ -14,31 +14,9 @@ main:
 
 
 docs:
-  - title: Informatics
+  - title: Areas of Research
     children:
-      - title: "Structured Reporting"
-        url: #
-      - title: "Imaging Informatics"
-        url: #
-      - title: "Information Systems"
-        url: #
-      - title: "Fundamental Research"
-        url: #
-      - title: "Comparative Effectiveness"
-        url: #
-
-  - title: Decision Support
-    children:
-      - title: "Machine Learning"
-        url: #
       - title: "Deep Learning"
-        url: #
-      - title: "Natural Language Processing"
-        url: #
-
-  - title: Projects
-    children:
-      - title: "RadKB"
-        url: #
-      - title: "Cloud PACS"
-        url: #
+        url: /deep-learning/
+      - title: "Imaging Informatics"
+        url: /informatics/

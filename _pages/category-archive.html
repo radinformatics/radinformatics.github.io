@@ -8,7 +8,7 @@ sidebar:
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="categories" %}
+{% include group-by-array collection=site.projects field="categories" %}
 
 {% for category in group_names %}
   {% assign posts = group_items[forloop.index0] %}
