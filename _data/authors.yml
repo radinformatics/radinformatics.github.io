@@ -26,74 +26,58 @@ Matthew Lungren:
 
 Rui Shu:
     name: "Rui Shu"
-    email: ""
+    uri: "http://ruishu.io/"
+    email: "ruishu@stanford.edu"
     bio: "Graduate Student"
     role: "Student Researcher"
     avatar: "bio/ruishu.jpg"
-    github:
+    github: "RuiShu"
 
 Matt Chen:
     name: "Matt Chen"
-    email: ""
+    email: "mcc17@stanford.edu"
     bio: "Graduate Student"
     role: "Student Researcher"
     avatar: "bio/mattchen.jpg"
-    github: ""
-
-Yu Yan:
-    name: "Yu Yan"
-    email: ""
-    bio: "Graduate Student"
-    role: "Student Researcher"
-    avatar: "bio/yuyan.jpg"
-    github: ""
-    
-
-Maxwell Cheong:
-    name: "Maxwell Cheong"
-    email: ""
-    bio: "Graduate Student"
-    role: "Student Researcher"
-    avatar: "bio/maxwellcheong.jpg"
-    github: ""
-    
 
 David Larson:
     name: "David Larson"
-    email: ""
-    bio: ""
-    role: ""
+    uri: "https://med.stanford.edu/profiles/david-larson"
+    email: "david.larson@stanford.edu"
+    bio: "Radiologist"
+    role: "Researcher and Practicing Radiologist"
     avatar: "bio/davidlarson.jpg"
-    github: ""
 
 Safwan Halabi:
     name: "Safwan Halabi"
-    email: ""
-    bio: ""
-    role: ""
+    uri: "https://med.stanford.edu/profiles/safwan-halabi"
+    email: "safwanh@stanford.edu"
+    bio: "Radiologist"
+    role: "Researcher and Practicing Radiologist"
     avatar: "bio/safwanhalabi.jpg"
-    github: ""
+    github: "radhelper"
 
 Chris Beaulieu:
     name: "Chris Beaulieu"
-    email: ""
-    bio: ""
-    role: ""
+    uri: "https://med.stanford.edu/profiles/christopher-beaulieu"
+    email: "beaulieu@stanford.edu"
+    bio: "Radiologist"
+    role: "Researcher and Practicing Radiologist"
     avatar: "bio/chrisbeaulieu.jpg"
-    github: ""
 
 Rusty Hoffman:
     name: "Rusty Hoffman"
-    email: ""
-    bio: ""
-    role: ""
+    uri: "https://med.stanford.edu/profiles/lawrence-hofmann/"
+    email: "lhofmann@stanford.edu"
+    bio: "Radiologist"
+    role: "Researcher and Practicing Radiologist"
     avatar: "bio/rustyhoffman.jpg"
-    github: ""
 
 Mike Muelly:
     name: "Mike Muelly"
-    email: ""
-    bio: ""
-    role: ""
+    uri: "https://med.stanford.edu/profiles/michael-muelly"
+    email: "mmuelly@stanford.edu"
+    bio: "Radiologist"
+    role: "Researcher and Practicing Radiologist"
     avatar: "bio/mikemuelly.jpg"
-    github: ""
+    github: "mmuelly"
