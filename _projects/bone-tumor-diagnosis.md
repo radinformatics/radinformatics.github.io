@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "Bone Tumor Diagnosis Using A Naïve Bayesian Model Of Demographic And Radiographic Features"
+title: "Diagnosis of Bone Tumors Using Radiographs"
 author: Vanessa Sochat
-excerpt: "Diagnosis of Bone Tumors using Radiographs" 
+excerpt: "Bone Tumor Diagnosis Using A Naïve Bayesian Model Of Demographic And Radiographic Features" 
 categories: machine-learning
 header:
   teaser: "projects/machine-learning/bone-tumor.png"
@@ -18,7 +18,7 @@ sidebar:
 - Christopher Beaulieu, MD, PhD
 
 <figure>
-  <img src="/images/projects/machine-learning/bone-tumor.png"/>
+  <img src="/images/projects/machine-learning/bone-tumor.png" style="max-height:600px"/>
 </figure>
 
 
