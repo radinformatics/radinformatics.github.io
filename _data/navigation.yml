@@ -12,7 +12,6 @@ main:
     url: /projects/
 
 
-
 docs:
   - title: Areas of Research
     children:
@@ -20,3 +19,13 @@ docs:
         url: /deep-learning/
       - title: "Imaging Informatics"
         url: /informatics/
+      - title: "Machine Learning"
+        url: /machine-learning/
+
+  - title: Datasets
+    children:
+      - title: "Imaging Datasets"
+        url: /imaging-datasets/
+      - title: "Natural Language Datasets"
+        url: /nlp-datasets/
+

@@ -12,7 +12,7 @@ sidebar:
 {% include group-by-array collection=site.projects field="categories" %}
 
 ## Goals
-Deep learning introduces a family of powerful algorithms that can help to discover features of disease in medical images, and assist with decision support tools. In the context of medical imaging, there are several intereseting challenges:
+Deep learning introduces a family of powerful algorithms that can help to discover features of disease in medical images, and assist with decision support tools. In the context of medical imaging, there are several interesting challenges:
 
 ### Challenges
 
