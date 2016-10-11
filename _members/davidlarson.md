@@ -7,4 +7,4 @@ header:
 excerpt: "Radiologist" 
 ---
 
-<p>Dr. Larson is an Associate Professor of Pediatric Radiology at the Stanford University Medical Center.</p>
+<p>Dr. Larson is an Associate Professor of Pediatric Radiology at the Stanford University Medical Center. His research interests include quality measurement and improvement in radiology, CT radiation dose optimization, and probability modeling of likelihood of acute appendicitis in children based on ultrasound</p>
