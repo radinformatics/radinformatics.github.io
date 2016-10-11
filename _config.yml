@@ -13,7 +13,7 @@ title                    : "Radiology Informatics"
 title_separator          : "-"
 name                     : &labname "Radiology Informatics at Stanford"
 description              : &description "Radiology Informatics at Stanford University"
-url                      : #"https://radinformatics.github.io"
+url                      : #"https://langlotzlab.stanford.edu"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 github                   : "radinformatics"
 repository               : "radinformatics/radinformatics.github.io" # nwo
