@@ -10,7 +10,7 @@ sidebar:
 
 {% include base_path %}
 
-The Langlotzlab is currently working with a imaging datasets from within and outside of Stanford Medicine:
+The Langlotzlab is currently working with imaging datasets from within and outside of Stanford Medicine:
 
 - 1000 ICU chest radiographs
 - 831 bone tumor radiographs annotated by an expert radiologist with 18 features and the pathologic diagnosis
